@@ -9,3 +9,6 @@
 [gsync]
     remote = tmux
     target = tmux/master
+[gdio]
+    ignore = ./.gitconfig
+    ignore = ./install.sh
