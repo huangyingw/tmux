@@ -1,0 +1,11 @@
+[remote "origin"]
+    url = git@github.com:huangyingw/tmux.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "tmux"]
+    url = https://github.com/tmux/tmux.git
+    fetch = +refs/heads/*:refs/remotes/tmux/*
+[push]
+    remote = origin
+[gsync]
+    remote = tmux
+    target = tmux/master
